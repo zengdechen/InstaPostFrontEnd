@@ -4,12 +4,13 @@
     justify-content: flex-start;
     background-color: #282c34;
     color: white;
-    height: 50px;
+    height: 80px;
 }
 
 .App-logo {
     pointer-events: none;
     height: 50px;
+    margin-left: 20px;
 }
 
 .App-title {
@@ -17,7 +18,7 @@
     text-align: left;
     font-weight: bold;
     font-size: 17px;
-    color: #61dafb;
+    color: white;
 }
 
 .logout {

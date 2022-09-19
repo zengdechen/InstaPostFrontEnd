@@ -8,7 +8,7 @@ function TopBar(props) {
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <span className="App-title">Around Web</span>
+            <span className="App-title">InstaPost</span>
             {
                 isLoggedIn ?
                     <LogoutOutlined className='logout' onClick={handleLogout}/>
