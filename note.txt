@@ -1,0 +1,36 @@
+Around web features:
+1. Login persist Login
+2. register
+3. Logout
+4. search by category
+5. display posts
+6. create a new post
+
+Router:
+    base -> redirect /Login
+         -> redirect /home
+
+    base/Login -> Login
+    base /register -> Register
+    base/home-> Home
+
+Pages:
+
+Layout -> common component
+    - top + bottom
+    - Header
+
+数据通讯
+
+      App
+     /    \
+TopBar     Main
+         /   |   \
+      Login Reg.  Home    *Reg.-> Register
+
+App state: isLoggedIn
+TopBar: props: isLoggedIn
+Main: props: handleLogin
+
+App 传回调函数(handleLogout)给TopBar
+    传回调函数(handleLogin)给Main
